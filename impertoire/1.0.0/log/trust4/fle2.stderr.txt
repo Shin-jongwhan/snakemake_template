@@ -1,0 +1,43 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+[Fri Dec  1 15:53:16 2023] TRUST4 begins.
+[Fri Dec  1 15:53:16 2023] SYSTEM CALL: /usr/src/TRUST4/fastq-extractor -t 8 -f /TBI/People/tbi/jhshin/pipeline/TRUST4/TRUST4-1.0.13/mouse/GRCm38_bcrtcr.fa -o /TBI/People/tbi/jhshin/script/impertoire/1.0.0/results/trust4/fle2//fle2_toassemble  -1 /data04/project/sooyeun/Archer/sample_fle2/sample_fle2_R1.molbar.trimmed.deduped.fastq -2 /data04/project/sooyeun/Archer/sample_fle2/sample_fle2_R2.molbar.trimmed.deduped.fastq
+[Fri Dec  1 15:53:16 2023] Start to extract candidate reads from read files.
+[Fri Dec  1 15:53:17 2023] Finish extracting reads.
+[Fri Dec  1 15:53:17 2023] SYSTEM CALL: /usr/src/TRUST4/trust4  -t 8 -f /TBI/People/tbi/jhshin/pipeline/TRUST4/TRUST4-1.0.13/mouse/GRCm38_bcrtcr.fa -o /TBI/People/tbi/jhshin/script/impertoire/1.0.0/results/trust4/fle2//fle2 -1 /TBI/People/tbi/jhshin/script/impertoire/1.0.0/results/trust4/fle2//fle2_toassemble_1.fq -2 /TBI/People/tbi/jhshin/script/impertoire/1.0.0/results/trust4/fle2//fle2_toassemble_2.fq
+[Fri Dec  1 15:53:17 2023] Found 335 reads.
+[Fri Dec  1 15:53:17 2023] Finish sorting the reads.
+[Fri Dec  1 15:53:17 2023] Finish rough annotations.
+[Fri Dec  1 15:53:17 2023] Assembled 19 reads.
+[Fri Dec  1 15:53:17 2023] Try to rescue 0 reads for assembly.
+[Fri Dec  1 15:53:17 2023] Rescued 0 reads.
+[Fri Dec  1 15:53:17 2023] Extend assemblies by mate pair information.
+[Fri Dec  1 15:53:17 2023] Remove redundant assemblies.
+[Fri Dec  1 15:53:17 2023] Finish assembly.
+[Fri Dec  1 15:53:17 2023] SYSTEM CALL: /usr/src/TRUST4/annotator -f /TBI/People/tbi/jhshin/pipeline/TRUST4/TRUST4-1.0.13/mouse/mouse_IMGT+C.fa -a /TBI/People/tbi/jhshin/script/impertoire/1.0.0/results/trust4/fle2//fle2_final.out -t 8 -o /TBI/People/tbi/jhshin/script/impertoire/1.0.0/results/trust4/fle2//fle2  -r /TBI/People/tbi/jhshin/script/impertoire/1.0.0/results/trust4/fle2//fle2_assembled_reads.fa --airrAlignment > /TBI/People/tbi/jhshin/script/impertoire/1.0.0/results/trust4/fle2//fle2_annot.fa
+[Fri Dec  1 15:53:18 2023] Start to annotate assemblies.
+[Fri Dec  1 15:53:18 2023] Start to realign reads for CDR3 analysis.
+[Fri Dec  1 15:53:18 2023] Compute CDR3 abundance.
+[Fri Dec  1 15:53:18 2023] Finish annotation.
+[Fri Dec  1 15:53:18 2023] SYSTEM CALL: perl /usr/src/TRUST4/trust-simplerep.pl /TBI/People/tbi/jhshin/script/impertoire/1.0.0/results/trust4/fle2//fle2_cdr3.out  > /TBI/People/tbi/jhshin/script/impertoire/1.0.0/results/trust4/fle2//fle2_report.tsv
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+[Fri Dec  1 15:53:18 2023] SYSTEM CALL: perl /usr/src/TRUST4/trust-airr.pl /TBI/People/tbi/jhshin/script/impertoire/1.0.0/results/trust4/fle2//fle2_report.tsv /TBI/People/tbi/jhshin/script/impertoire/1.0.0/results/trust4/fle2//fle2_annot.fa --airr-align /TBI/People/tbi/jhshin/script/impertoire/1.0.0/results/trust4/fle2//fle2_airr_align.tsv > /TBI/People/tbi/jhshin/script/impertoire/1.0.0/results/trust4/fle2//fle2_airr.tsv
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+[Fri Dec  1 15:53:18 2023] TRUST4 finishes.

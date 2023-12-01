@@ -1,0 +1,19 @@
+pipeline_dir: /TBI/People/tbi/jhshin/script/impertoire/1.0.0/
+analysis_dir: /TBI/People/tbi/jhshin/script/impertoire/1.0.0/
+samples: config/samples.tsv
+
+tools:
+    trust4: 'docker://shinejh0528/trust4:1.0.0'
+    star: 'docker://shinejh0528/star:2.7.11a'
+
+database:
+    star:
+        genome_dir:
+            mm10_imgt_2.7.11a: "/TBI/Share/BioPeople/jhshin/star_build/mm10_imgt/2.1.11a/"
+    trust4:
+        mm10:
+            fa: "/TBI/People/tbi/jhshin/pipeline/TRUST4/TRUST4-1.0.13/mouse/GRCm38_bcrtcr.fa"
+            imgt: "/TBI/People/tbi/jhshin/pipeline/TRUST4/TRUST4-1.0.13/mouse/mouse_IMGT+C.fa"
+
+# define how many threads are used in each rules (maybe not use)
+#threads

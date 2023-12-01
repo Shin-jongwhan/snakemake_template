@@ -1,0 +1,14 @@
+# info
+## you can write info
+#
+# star_genome_dir, trust4_reference
+## you can check it in config.yaml
+TNID	sample_name	fastq_1	fastq_2	star_genome_dir	trust4_reference
+TN2310R0796	fle1	/data04/project/sooyeun/Archer/sample_fle1/sample_fle1_R1.molbar.trimmed.deduped.fastq	/data04/project/sooyeun/Archer/sample_fle1/sample_fle1_R2.molbar.trimmed.deduped.fastq	mm10_imgt_2.7.11a	mm10
+TN2310R0797	fle2	/data04/project/sooyeun/Archer/sample_fle2/sample_fle2_R1.molbar.trimmed.deduped.fastq	/data04/project/sooyeun/Archer/sample_fle2/sample_fle2_R2.molbar.trimmed.deduped.fastq	mm10_imgt_2.7.11a	mm10
+TN2310R0798	fle3	/data04/project/sooyeun/Archer/sample_fle3/sample_fle3_R1.molbar.trimmed.deduped.fastq	/data04/project/sooyeun/Archer/sample_fle3/sample_fle3_R2.molbar.trimmed.deduped.fastq	mm10_imgt_2.7.11a	mm10
+TN2310R0794	nc1	/data04/project/sooyeun/Archer/sample_nc1/sample_nc1_R1.molbar.trimmed.deduped.fastq	/data04/project/sooyeun/Archer/sample_nc1/sample_nc1_R2.molbar.trimmed.deduped.fastq	mm10_imgt_2.7.11a	mm10
+TN2310R0795	nc2	/data04/project/sooyeun/Archer/sample_nc2/sample_nc2_R1.molbar.trimmed.deduped.fastq	/data04/project/sooyeun/Archer/sample_nc2/sample_nc2_R2.molbar.trimmed.deduped.fastq	mm10_imgt_2.7.11a	mm10
+TN2310R0799	sifle1	/data04/project/sooyeun/Archer/sample_sifle1/sample_sifle1_R1.molbar.trimmed.deduped.fastq	/data04/project/sooyeun/Archer/sample_sifle1/sample_sifle1_R2.molbar.trimmed.deduped.fastq	mm10_imgt_2.7.11a	mm10
+TN2310R0800	sifle2	/data04/project/sooyeun/Archer/sample_sifle2/sample_sifle2_R1.molbar.trimmed.deduped.fastq	/data04/project/sooyeun/Archer/sample_sifle2/sample_sifle2_R2.molbar.trimmed.deduped.fastq	mm10_imgt_2.7.11a	mm10
+TN2310R0801	sifle3	/data04/project/sooyeun/Archer/sample_sifle3/sample_sifle3_R1.molbar.trimmed.deduped.fastq	/data04/project/sooyeun/Archer/sample_sifle3/sample_sifle3_R2.molbar.trimmed.deduped.fastq	mm10_imgt_2.7.11a	mm10

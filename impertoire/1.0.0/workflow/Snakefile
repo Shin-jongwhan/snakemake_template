@@ -1,0 +1,19 @@
+from snakemake.utils import min_version
+import os
+
+##### set minimum snakemake version #####
+min_version("6.4.1")
+
+##### setup report #####
+configfile: "config/config.yaml"
+
+include: "rules/common.smk"
+include: "rules/immune_repertoire.smk"
+include: "rules/star.smk"
+include: "rules/ftp_upload.smk"
+
+rule all:
+	input:
+		get_final_output(),
+	benchmark:
+		"benchmark/benchmark.txt" 

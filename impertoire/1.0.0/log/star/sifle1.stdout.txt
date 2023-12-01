@@ -1,0 +1,8 @@
+	STAR --runMode alignReads --runThreadN 8 --genomeDir /TBI/Share/BioPeople/jhshin/star_build/mm10_imgt/2.1.11a/ --readFilesIn /data04/project/sooyeun/Archer/sample_sifle1/sample_sifle1_R1.molbar.trimmed.deduped.fastq /data04/project/sooyeun/Archer/sample_sifle1/sample_sifle1_R2.molbar.trimmed.deduped.fastq --outFileNamePrefix /TBI/People/tbi/jhshin/script/impertoire/1.0.0/results/star/sifle1/ --outSAMtype BAM Unsorted SortedByCoordinate --outFilterMatchNmin 0 --outFilterScoreMinOverLread 0.0 --outFilterMatchNminOverLread 0.0
+	STAR version: 2.7.11a   compiled: 2023-08-15T11:38:34-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Dec 01 15:53:17 ..... started STAR run
+Dec 01 15:53:17 ..... loading genome
+Dec 01 15:53:17 ..... started mapping
+Dec 01 15:53:37 ..... finished mapping
+Dec 01 15:53:37 ..... started sorting BAM
+Dec 01 15:53:37 ..... finished successfully
