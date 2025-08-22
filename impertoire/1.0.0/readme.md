@@ -1,4 +1,4 @@
-# peline to analyze resistnace, virulence, horizontal gene transfer
+# pipeline to analyze resistnace, virulence, horizontal gene transfer
 ### 1.0.0
 ### <br/><br/><br/>
 
