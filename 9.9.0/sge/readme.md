@@ -11,7 +11,7 @@ pip install snakemake-executor-plugin-cluster-generic
 ### 그 다음 다음과 같이 명령어를 사용하면 된다.
 ### SGE 관련 중요 옵션
 - --executor cluster-generic
-- --cluster-generic-submit-cmd "qsub -V -pe smp {threads} -o /dev/null -e /dev/null -N {rule}.{wildcards} -S /bin/bash -q 'rine.q@beluga|hippo|horse|jaguar|nanuq'"
+- --cluster-generic-submit-cmd "qsub ..."
 ```
 snakemake --jobs 30 \
                 --profile /biarchive/project/jhshin/analysis/ica_wgs/TBD251048_24797_20250819/config/profile \
